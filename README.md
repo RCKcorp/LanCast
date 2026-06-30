@@ -15,3 +15,5 @@ Port : 8080.
 Interface conseillee : LAN-VIDEO.
 
 Reseau type : 10.10.10.0/24.
+
+Guide : docs/README.md.
