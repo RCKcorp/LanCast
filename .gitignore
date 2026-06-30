@@ -1,0 +1,15 @@
+# Windows / PowerShell runtime
+*.log
+*.tmp
+Thumbs.db
+Desktop.ini
+
+# Local installation artifacts
+install-state.json
+EdgeProfileViewer/
+EdgeProfileSource/
+
+# Editor folders
+.obsidian/
+.vscode/
+.idea/
