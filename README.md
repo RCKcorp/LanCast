@@ -1,3 +1,5 @@
 # LANCast
 
-Projet LANCast.
+Solution locale.
+
+Consulter docs/README.md.
