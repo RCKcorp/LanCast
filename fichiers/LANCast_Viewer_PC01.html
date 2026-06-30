@@ -1,9 +1,39 @@
 <!doctype html>
 <html lang="fr">
-<head><meta charset="utf-8"><title>LANCast Viewer</title></head>
+<head>
+  <meta charset="utf-8">
+  <title>LANCast Viewer - PC01</title>
+  <style>
+    body{font-family:Arial,sans-serif;max-width:900px;margin:40px auto;line-height:1.5;color:#222}
+    h1{margin-bottom:0}.badge{display:inline-block;background:#eef;padding:4px 8px;border-radius:6px;margin:4px 0}
+    table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd;padding:8px;text-align:left}th{background:#f5f5f5}
+    code{background:#f4f4f4;padding:2px 4px;border-radius:4px}
+  </style>
+</head>
 <body>
-<h1>LANCast Viewer</h1>
-<p>Fichier Viewer corrigé disponible dans le paquet ZIP fourni par ChatGPT.</p>
-<p>Le dépôt contient déjà le serveur de signalisation corrigé. Remplacer ce fichier par la version complète du ZIP local pour le déploiement terrain.</p>
+  <h1>LANCast Viewer - PC01</h1>
+  <p class="badge">Page de repère / documentation</p>
+
+  <p>Le Viewer est le poste central. Il affiche les flux envoyés par les postes Source et héberge le serveur de signalisation LANCast.</p>
+
+  <h2>Rôle du Viewer</h2>
+  <table>
+    <tr><th>Élément</th><th>Description</th></tr>
+    <tr><td>Poste conseillé</td><td>PC01</td></tr>
+    <tr><td>IP type</td><td><code>10.10.10.10</code></td></tr>
+    <tr><td>Service associé</td><td><code>SignalServer.ps1</code></td></tr>
+    <tr><td>Port par défaut</td><td><code>8080</code></td></tr>
+  </table>
+
+  <h2>Contrôles rapides</h2>
+  <ul>
+    <li>La carte réseau dédiée doit être active.</li>
+    <li>La tâche planifiée <code>LANCast SignalServer</code> doit exister.</li>
+    <li>La page <code>/health</code> du serveur doit répondre.</li>
+    <li>Les Sources doivent pouvoir joindre l'IP du Viewer.</li>
+  </ul>
+
+  <h2>Important</h2>
+  <p>Cette page sert de description claire dans le dépôt. Pour le déploiement terrain, utiliser la page Viewer complète issue de la livraison validée LANCast.</p>
 </body>
 </html>
