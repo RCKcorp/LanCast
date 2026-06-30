@@ -1,9 +1,27 @@
 <!doctype html>
 <html lang="fr">
-<head><meta charset="utf-8"><title>LANCast Source</title></head>
+<head>
+  <meta charset="utf-8">
+  <title>LANCast Source</title>
+  <style>body{font-family:Arial,sans-serif;max-width:850px;margin:40px auto;line-height:1.5}code{background:#f4f4f4;padding:2px 4px}</style>
+</head>
 <body>
-<h1>LANCast Source</h1>
-<p>Fichier Source corrigé disponible dans le paquet ZIP fourni par ChatGPT.</p>
-<p>Le dépôt contient déjà le serveur de signalisation corrigé. Remplacer ce fichier par la version complète du ZIP local pour le déploiement terrain.</p>
+  <h1>LANCast Source</h1>
+  <p>Une Source est un poste client LANCast, par exemple PC02, PC03 ou PC04.</p>
+  <h2>Rôle</h2>
+  <p>La Source prépare un flux local pour le Viewer PC01. Chaque Source doit avoir un nom unique.</p>
+  <h2>Convention</h2>
+  <ul>
+    <li>Nom Source : <code>PC02</code>, <code>PC03</code>, etc.</li>
+    <li>Viewer cible : <code>10.10.10.10</code>.</li>
+    <li>Nom de flux : <code>PC02-ECRAN1</code>.</li>
+  </ul>
+  <h2>À retenir</h2>
+  <ul>
+    <li>Ne pas utiliser deux fois le même nom.</li>
+    <li>Vérifier la connexion réseau avec le Viewer.</li>
+    <li>Tester une seule Source avant d'ajouter les autres.</li>
+  </ul>
+  <p>Cette page est une description lisible pour le dépôt. La page Source complète doit venir de la livraison LANCast validée.</p>
 </body>
 </html>
