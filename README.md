@@ -13,3 +13,5 @@ Adresse type : 10.10.10.10.
 Port : 8080.
 
 Interface conseillee : LAN-VIDEO.
+
+Reseau type : 10.10.10.0/24.
