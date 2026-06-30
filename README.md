@@ -2,4 +2,4 @@
 
 Solution locale.
 
-Consulter docs/README.md.
+Documentation : docs/README.md.
